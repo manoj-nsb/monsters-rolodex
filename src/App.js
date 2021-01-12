@@ -27,6 +27,7 @@ class App extends Component {
   render() {
     return (
       <div className="App">
+        <h1>Monsters Rolodex</h1>
         <SearchBox placeHolder="search monster" handler={this.handleChange} />
         <CardList monsters={this.state.monsters} searchField={this.state.searchFiled} />
       </div>
